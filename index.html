@@ -80,7 +80,6 @@
       @media (prefers-color-scheme: dark) {
         body,
         center,
-        table,
         .darkmode-bg {
           background: #2d2d2d !important;
           color: #ffffff !important;
@@ -121,14 +120,14 @@
       style="
         width: 100%;
         table-layout: fixed;
-        background-color: #dde0e1;
+        background-color: black;
         padding-bottom: 40px;
       "
     >
       <div
         style="
           max-width: 480px;
-          background-color: #fafdfe;
+          background-color: black;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         "
       >
@@ -163,7 +162,7 @@
             border-spacing: 0;
             color: #565656;
             font-family: Helvetica, sans-serif, Arial;
-            background-color: #fafdfe;
+            background-color: black;
             margin: 0;
             padding: 0;
             width: 100%;
@@ -195,17 +194,18 @@
           </tr>
           <!-- END Logo -->
 
-         <!-- START Border -->
-         <tr>
-            <td height="5" style="background-color: #00A8E1;"></td>
-         </tr>
-         <!-- END Border -->
+          <!-- START Border -->
+          <tr>
+            <td height="5" style="background-color: #00a8e1"></td>
+          </tr>
+          <!-- END Border -->
 
           <!-- START Banner -->
 
           <tr>
             <td>
               <img
+                style="width: 100%"
                 src=" https://ci4.googleusercontent.com/proxy/IOk1yQIlXMt74vYGPx9lWf2XQt3eukTZ8X3VNNV9gTj__Byrt6ONyRSJSuWTEnAhxt76aqm_7A9WtmPvCm1h3WUw5RcrrxcFE7Xzueadk61Wy23sfqQKKzkBve21NdR82ERIFWWq7aPy46GeUm4K8viLif3dfRvVB32tX_R1BL2eaCV5DzuC-WR_G5FMqTioiF4=s0-d-e1-ft#https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_LTUM_S1_3Boats/835bc895-463e-4cd3-86a7-cf2dccd98f23._SX960_.jpeg"
                 alt="Rings of Power Banner"
               />
@@ -216,13 +216,52 @@
 
           <!-- START Two Column Buttons -->
 
-            
+          <tr>
+            <td style="padding: 0; background-color: black">
+              <table
+                width="100%"
+                style="
+                  border-spacing: 0;
+                  text-align: center;
+                  padding: 0px 25px 50px 25px;
+                  background-color: black;
+                "
+                role="presentation"
+              >
+                <tr>
+                  <td width="210" style="text-align: center; height: auto;">
+                    <p
+                      style="
+                        background-color: #00a8e1;
+                        padding: 10px 35px 10px 35px;
+                        color: #fff;
+                        font-size: 16px;
+                        border-radius: 3px;
+                      "
+                    >
+                      Watch Now
+                    </p>
+                  </td>
+                  <td></td>
+                  <td width="210" style="text-align: center">
+                    <p
+                      style="
+                        background-color: #425265;
+                        padding: 10px 35px 10px 35px;
+                        color: #fff;
+                        font-size: 16px;
+                        border-radius: 3px;
+                      "
+                    >
+                      Add to Watchlist
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
           <!-- END Two Column Buttons -->
-
-
-
-
         </table>
 
         <!--[if (gte mso 9)|(IE)]>
