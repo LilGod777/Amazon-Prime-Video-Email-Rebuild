@@ -30,7 +30,32 @@
         font-size: 15px;
       }
 
-      @media screen and (max-width: 479.98px) {
+      @media screen and (max-width: 429.98px) {
+
+       .main-table {
+        max-width: inherit !important;
+        width: auto !important;
+        height: auto !important;
+        margin: 0 auto !important;
+       }
+
+       table, tr, td {
+        position: inherit !important;
+       }
+
+       .mobile-center {
+        position: relative !important;
+        left: 120px !important;
+       }
+       .mobile-center-2 {
+        position: relative !important;
+        left: 60px !important;
+       }
+       #mobile-inner {
+        position: relative !important;
+        left: 80px !important;
+       }
+
         .two-columns .padding {
           padding-right: 0 !important;
           padding-left: 0 !important;
@@ -156,7 +181,7 @@
             <td style="padding:0;">
          <![endif]-->
 
-        <table
+        <table class="main-table"
           align="center"
           style="
             border-spacing: 0;
@@ -282,7 +307,7 @@
           <!-- START Two Column Photo Grid  -->
 
           <tr>
-            <td>
+            <td class="two-columns">
               <table
                 width="100%"
                 style="
@@ -297,7 +322,7 @@
                 role="presentation"
               >
                 <tr>
-                  <td style="text-align: left">
+                  <td style="text-align: left" class="mobile-center">
                     <img
                       width="33"
                       height="auto"
@@ -399,8 +424,8 @@
                 role="presentation"
               >
                 <tr>
-                  <td style="text-align: left">
-                    <p
+                  <td style="text-align: left" class="mobile-center-2">
+                    <p id="mobile-inner"
                       style="
                         color: #0f171e;
                         font-size: 11px;
@@ -508,7 +533,7 @@
                 role="presentation"
               >
                 <tr>
-                  <td style="text-align: left">
+                  <td style="text-align: left" class="mobile-center">
                     <img
                       width="33"
                       height="auto"
